@@ -6,21 +6,14 @@ layout: home
 
 # Content Directory
 
-Hyperlinks to each of the lab exercises and demos are listed below.
+Hyperlinks to each of the sample files are listed below.
 
-## Labs
+### Sample Files
+</br>
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
-| --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-## Demos
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
+| Module | Unit | SampleFile |
+| --- | --- | --- |
+| Explore use cases of Microsoft Security Copilot | Enable a custom plugin | KQL_DefenderExample.yaml |
+| Explore use cases of Microsoft Security Copilot | Explore file uploads as a knowledge base | Woodgrove Corporate Data Handling Policy.docx |
+| Explore use cases of Microsoft Security Copilot | Explore file uploads as a knowledge base | Woodgrove Corporate Data Handling Policy.pdf |
 
