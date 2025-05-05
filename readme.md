@@ -1,4 +1,4 @@
-# Get started with Microsoft Copilot for Security:
+# Enhance Security Operations by using Microsoft Security Copilot:
 For more information about this Microsoft Applied Skills, please check **[Microsoft Learn Documentation](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=identity-access-admin%2Cip-admin%2Csecurity-engineer%2Csecurity-operations-analyst)**
 
 ### Prepare for your assessment:
